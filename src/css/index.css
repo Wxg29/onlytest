@@ -1,0 +1,363 @@
+html,
+body {
+    background-color: whitesmoke;
+}
+
+
+/* **********************banner********************** */
+/* ??????????????????????????????????????????????????? */
+.banner {
+  position: relative;
+}
+.banner .banner_img {
+  width: 100%;
+  height: 530px;
+}
+.banner_img img {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: 10px;
+}
+.banner_img .showimg{
+  opacity: 1;
+}
+/* btn */
+.banner .leftbtn {
+  position: absolute;
+  left: 400px;
+  top: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+  padding: 10px 5px;
+  opacity: .5;
+}
+.banner .rightbtn {
+  position: absolute;
+  right:100px;
+  top: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+  padding: 10px 5px;
+  opacity: .5;
+}
+
+/* ol */
+.banner ol {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -80px;
+}
+.banner ol li {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  float: left;
+  background-color: transparent;
+  cursor: pointer;
+}
+.banner ol .active {
+  background-color: lightseagreen;
+}
+
+/* banner图上面的菜单栏 */
+/* .banner .banner_list {
+
+} */
+.banner_list .list {
+  position: relative;
+  position: absolute;
+  z-index: 20px;
+  top: 0;
+  height: 530px;
+  background: rgb(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner_list .list li {
+  font-size: 14px;
+  padding: 10px 40px;
+  color: white;
+  
+}
+.banner_list .list li:hover {
+  background-color: teal;
+}
+
+/* 子菜单 */
+.banner_list .list .list_nav {
+  position: absolute;
+  width: 800px;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  margin-left: 96px;
+  box-shadow: 0px -2px 9px 0.1px gray;
+  opacity: 1;
+  color: black;
+  display: none;
+}
+.banner_list .list li:hover .list_nav{
+  display: block;
+}
+/* 子菜单的内容 */
+.list_nav_child {
+  padding: 20px 0 0 20px;
+}
+.list_nav_child_title {
+  float: left;
+  font-size: 16px;
+}
+.list_nav_child_title a {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.list_nav_child_content {
+  font-size: 13px;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_nav_child_content a {
+  margin-left: 20px;
+  width: 25%;
+  margin-bottom: 10px;
+}
+.list_nav_child_content img {
+  width: 60px;
+  height: 60px;
+}
+.list_nav_child_content a span {
+  display: inline-block;
+  line-height: 20px;
+  padding: 15px 0;
+}
+
+/* **********************content********************** */
+.repetition_h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 10px 0;
+}
+
+.content_hot_box {
+  display: flex;
+  justify-content: space-between;
+}
+.content_hot_box a {
+  width: 280px;
+  height: 280px;
+  background-color: burlywood;
+}
+
+/* content-banner */
+.content_banner {
+  padding: 20px 0;
+}
+
+/* **********************限时购********************** */
+.content_timebuy {
+  height: 430px;
+}
+.content_timebuy .left {
+  width: 240px;
+  height: 380px;
+  float: left;
+}
+.content_timebuy .right {
+  float: left;
+  width: 940px;
+  height: 380px;
+  /* background-color: chocolate; */
+}
+.content_timebuy .right ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content_timebuy .right ul li {
+  width: 450px;
+  height: 180px;
+  /* background-color: cornflowerblue; */
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+.content_timebuy .right ul li img {
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  float: left;
+}
+.content_timebuy .right ul li a {
+  float: left;
+  padding: 10px;
+  width: 240px;
+}
+.content_timebuy .right ul li p:nth-child(1) {
+  font-size: 16px;
+  color: gray;
+  padding: 10px 0 0 0;
+}
+.content_timebuy .right ul li p:nth-child(2) {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.content_timebuy .right ul li a h4 {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  padding: 5px 20px;
+  width: 60px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* **********************新品推荐********************** */
+
+/* **********************安全路由********************** */
+
+.repetition_h3 span {
+  font-size: 12px;
+}
+.safe_box ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.safe_box ul a img {
+  width: 580px;
+  height: 460px;
+}
+.safe_box ul li {
+  box-sizing: border-box;
+  width: 280px;
+  height: 460px;
+  background-color: burlywood;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+.safe_box ul li img {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+}
+.safe_box ul li p:nth-child(2) {
+  font-size: 16px;
+  margin-top: 40px;
+}
+.safe_box ul li span {
+  color: grey;
+}
+.safe_box ul li p:nth-child(4) {
+  color: red;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* **********************社区********************** */
+.talk_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.talk_box li img {
+  width: 280px;
+  height: 200px;
+}
+.talk_box li {
+  width: 280px;
+  height: 400px;
+  background-color: white;
+}
+
+.talk_box li p {
+  padding: 20px;
+  font-size: 16px;
+}
+.talk_box li span {
+  padding: 0 20px 0px 20px;
+  color: gray;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+
+/* **********************更多商品********************** */
+.more{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.more li{
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.more li img{
+    width: 180px;
+    height: 180px;
+}
+
+.more li p:nth-child(2){
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical; 
+}
+.more li p:nth-child(3){
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* **********************footer********************** */
+
+
+ /* **********************movelist********************** */
+
+ .movelist ul{
+   position: fixed;
+   left: 0px;
+   top: 200px;
+   background-color: lightseagreen;
+   color: white ;
+   text-align: center;
+   /* display: none; */
+ }
+ .movelist ul li{
+   padding: 5px 10px;
+   border: 1px solid lightblue;
+   cursor: pointer;
+ }
+
+.movelist ul li:hover{
+  background-color: lightskyblue;
+}
+.movelist ul .active{
+  background-color: lightskyblue;
+}

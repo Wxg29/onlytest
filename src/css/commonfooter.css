@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    background-color: black;
+}
+.footer_content{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.footer_over{
+    text-align: center;
+    color: gray;
+    padding: 50px 0 50px 0;
+}

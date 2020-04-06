@@ -1,0 +1,79 @@
+html,body{
+    background-color: whitesmoke;
+}
+.cart table{
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse
+}
+.cart tr{
+    border: 1px solid lightgray;
+}
+.cart table tr{
+    text-align: center;
+}
+thead{
+    background-color: lightseagreen;
+}
+thead tr{
+    font-size: 13px;
+}
+
+thead tr td{
+    padding: 10px 0;
+    line-height: 28px;
+}
+
+
+/* tbody */
+
+tbody{
+    background-color: white;
+}
+tbody tr img{
+    width: 90px;
+    height: 90px;
+}
+
+
+/* 文本框 */
+.number{
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin-left: 5px;
+}
+.number a{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+.number a:nth-child(1){
+    border-right: lightgray 1px solid;
+}
+.number a:nth-child(3){
+    border-left: lightgray 1px solid;
+}
+.number input{    
+    text-align: center;
+    height: 26px;
+    width: 40px;
+}
+
+.content_detail{
+    display: none;
+}
+
+tr strong{
+    font-size: 14px;
+    color: red;
+}
+
+tr .pay{
+    padding: 0;
+    padding: 5px 10px;
+    background-color: lightsalmon;
+    border-radius: 5px ;
+}

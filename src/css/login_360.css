@@ -1,0 +1,142 @@
+.content{
+    position: relative;
+}
+.content_main{
+    background-image: url("http://p5.ssl.qhimg.com/t0118feb0c6cd63e5ba.jpg");
+    width: 100%;
+    height: 700px;
+}
+.content_main .logo{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+.content_main .banner{
+    position: absolute;
+    left: 120px;
+    top:0;
+}
+
+/* 登陆框 */
+.content_main .loginbox{
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    right: 180px;
+    top: 150px;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+.content_main .loginbox h2{
+    font-weight: lighter;
+    display: inline-block;
+    line-height: 24px;
+}
+.content_main .loginbox h2:nth-child(1){
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+.content_main .loginbox h2:nth-child(2){
+    padding-left: 18px;
+}
+
+/* input 框*/
+.loginbox .input{
+    text-align: center;
+    padding-top: 20px;
+}
+.loginbox .input input{
+    /* display: block; */
+    border: lightgrey solid 1px;
+    width: 280px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.loginbox .btn input{
+    box-sizing: content-box;
+    width: 280px;
+    padding: 8px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: teal;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.loginbox .other{
+    border-bottom: 1px solid lightgrey;
+    /* position: relative; */
+}
+.loginbox .other p{
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.loginbox .other p:nth-child(1){
+    float: left;
+    margin-left: 11px;
+}
+.loginbox .other p:nth-child(2){
+    float: right;
+    margin-right: 11px;
+}
+.loginbox span{
+    display: inline-block;
+    position: absolute;
+    top: 262px;
+    right: 140px;
+    background-color: white;
+    color: gray;
+}
+.login_other{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+.login_other a:nth-child(1){
+    font-size: 28px;
+    color: dodgerblue;
+}
+.login_other a:nth-child(2){
+    font-size: 28px;
+    color: forestgreen;
+}
+.login_other a:nth-child(3){
+    font-size: 28px;
+    color: crimson;
+}
+
+
+/* footer */
+footer ul{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    color: mediumseagreen;
+}
+
+footer ul li{
+    display: flex;
+    padding:10px 40px;
+    cursor: pointer;
+}
+footer ul li .iconfont{
+    line-height: 48px;
+    font-size: 40px;
+}
+footer .main{
+    padding-left: 10px;
+}
+footer ul li:hover{
+    background-color: powderblue;
+}
+
+footer .footer{
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+    padding: 10px 0;
+}
+

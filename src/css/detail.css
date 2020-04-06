@@ -1,0 +1,235 @@
+body,html{
+    background-color: white;
+}
+.scale{
+    margin-top: 30px;
+    padding-bottom: 200px;
+    float: left;
+    position: relative;
+}
+.scale .detail_spic{
+    border: 1px solid lightgrey;
+    width: 480px;
+    height: 480px;
+    float: left;
+    position: relative;
+}
+.detail_spic img{
+    width: 480px;
+    height: 480px;
+}
+.detail_sf{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    opacity: .3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+/* 大放 */
+.scale .detail_bf{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    float: left;
+    border: 1px solid lightgrey;
+    margin-left: 10px;
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    left: 480px;
+    background-color: white;
+    
+}
+.scale .detail_bf img{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+/* 备选图片列表 */
+.imglist{
+    position: relative;
+    position: absolute;
+    bottom: 100px;
+    width: 480px;
+    height: 90px;
+    overflow: hidden;
+}
+.imglist ul{
+    position: absolute;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.imglist ul li{
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    /* border: 1px solid lightgrey; */
+    float: left;
+    margin: 1px;
+}
+.imglist ul li img{
+    width: 90px;
+    height: 90px;
+}
+.imglist .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid lightgray;
+    padding: 32px 0;
+    background-color: whitesmoke;
+}
+
+.imglist .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid lightgray;
+    padding: 32px 0;
+    background-color: whitesmoke;
+}
+
+/* 详情页商品信息部分 */
+.right_detail{
+    width: 640px;
+    float: left;
+    padding-left: 50px;
+}
+.title h1{
+    font-weight: normal;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.title p{
+    color: tomato;
+}
+.title a{
+    text-decoration:underline;
+    color: darkcyan;
+}
+
+/* 商品价格部分 */
+.price{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+.price .price_a span{
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.price .price_a del{
+    font-size: 12px;
+} 
+.price .price_b span{
+    display: inline-block;
+    padding: 0 5px;
+    background: #FF9999;
+    border-radius: 99px;
+    color: red ;
+    line-height: 16px;
+}
+.price_b SMALL{
+    padding-left: 5px;
+}
+
+/*公告部分  */
+.notice{
+    display: flex;
+    justify-items: center;
+    padding: 20px 0;
+    color: red; 
+}
+
+/* 版本信息部分 */
+.classify{
+    padding: 10px;
+}
+.classify span{
+    padding: 3px 10px;
+    border: lightgrey solid 1px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.number{
+    padding: 10px;
+}
+.number_a{
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin-left: 5px;
+}
+.number_a a{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+.number_a a:nth-child(1){
+    border-right: lightgray 1px solid;
+}
+.number_a a:nth-child(3){
+    border-left: lightgray 1px solid;
+}
+.number_a input{    
+    text-align: center;
+    height: 26px;
+    width: 40px;
+}
+
+
+.integral{
+    display: flex;
+    padding: 10px;
+}
+.integral span{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.integral i{
+    font-size: 19px;
+    color: red;
+}
+
+
+/* 加购物车 */
+.buycart{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.buycart a{
+    /* border: 1px solid #CC3333; */
+    background-color: #CC3333;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 40px;
+}
+.buycart a:hover{
+    background-color: #FF6666;
+}
+.buycart i{
+    border: lightgrey 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px; 
+    margin: 0 40px;  
+    cursor: pointer;     
+}
+
+
